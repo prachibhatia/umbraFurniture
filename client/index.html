@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>umbraFurniture</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet"> 
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="logo">
+              <img src="logo.png">
+            </div>
+            <div class="menu">
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                    <li class="dropdown">   
+                      <a href="#">HOME</a>
+                      <div class="dropdown-content">
+                      <ul class="sub-menu">
+                        <li><a href = "#" >Homepage 1</a></li>
+                        <li><a href = "#" >Homepage 2</a></li>
+                        <li><a href = "#" >Homepage 3</a></li>
+                        <li><a href = "#" >Homepage 4</a></li>
+                        <li><a href = "#" >Homepage 5</a></li>
+                      </ul>
+                      </div>
+                    </li>
+                    
+                    <li class="dropdown">   
+                        <a href="#">BLOG</a>
+                        <div class="dropdown-content">
+                        <ul class="sub-menu">
+                          <li><a href="#">BLOG 1</a></li>
+                          <li><a href="#">BLOG 2</a></li>
+                          <li><a href="#">BLOG 3</a></li>
+                          <li><a href="#">BLOG 4</a></li>
+                          <li><a href="#">BLOG 5</a></li>
+                        </ul>
+                        </div>
+                      </li>
+                    
+                      <li class="dropdown">   
+                          <a href="#">SHOP</a>
+                          <div class="dropdown-content">
+                          <ul class="sub-menu">
+                            <li><a href="#">SHOP 1</a></li>
+                            <li><a href="#">SHOP 2</a></li>
+                            <li><a href="#">SHOP 3</a></li>
+                            <li><a href="#">SHOP 4</a></li>
+                            <li><a href="#">SHOP 5</a></li>
+                          </ul>
+                          </div>
+                        </li>
+                        <li class="dropdown">   
+                            <a href="#">PAGES</a>
+                            <div class="dropdown-content">
+                            <ul class="sub-menu">
+                              <li><a href="#">PAGES 1</a></li>
+                              <li><a href="#">PAGES 2</a></li>
+                              <li><a href="#">PAGES 3</a></li>
+                              <li><a href="#">PAGES 4</a></li>
+                              <li><a href="#">PAGES 5</a></li>
+                            </ul>
+                            </div>
+                          </li>
+                    <li><a href="#">CONTACT</a></li>
+                    </ul>
+                    </nav>
+            </div>
+            <div class="navbar-meta">
+              <button data-toggle="modal" data-target="#myModal" style="background-color:aliceblue;" class="btn btn-lg"> Queries ?</button> &nbsp&nbsp
+              <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">Drop us a query</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                        <input type="tel" placeholder=" Mobile Number* " class="form-control" id="contact_no">
+                        </div>
+                        <div class="form-group">
+                        <input type="email" placeholder=" Email Address* " class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                        <input type="text" placeholder=" Type your query here* " class="form-control" style="height: 200px;" id="myQuery">
+                        </div>
+                        <button class="btn btn-primary" id="btn">SUBMIT QUERY</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+                   <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+                   <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="hh.jpg" alt="Chania">
+                <div class="carousel-caption">
+                  <h3>UMBRA DESIGN</h3>
+                  <h4>MODERN FURNITURE</h4>
+                </div>
+              </div>
+          
+              <div class="item">
+                <img src="EDGE_1.jpg" alt="Chicago">
+                <div class="carousel-caption">
+                  <h3>LIVE WITH WHAT YOU LOVE</h3>
+                </div>
+              </div>
+          
+              <div class="item">
+                <img src="hh.jpg" alt="New York">
+                <div class="carousel-caption">
+                  <h3>YOUR HOME SHOULD TELL YOUR STORY</h3>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <h1>| TOP PRODUCTS |</h1>
+        <p>The Best of 2016</p>
+            <div class="col-sm-4">
+              <div class="box" id="box1">
+                <p>DECOR</p>
+               <img src="">
+               <p>$222.00</p>
+               </div>
+            </div>
+             <div class="col-sm-4">
+               <div class="box" id="box2">
+                  <p>DECOR</p>
+             <img src="">
+             <p>$322.00</p>
+             </div>
+              </div>
+            <div class="col-sm-4">
+              <div class="box" id="box3">
+                  <p>DECOR</p>
+               <img src="">
+               <p>$429.00</p>
+               </div>
+            </div>
+        
+        
+       <div class="col-sm-4">
+         <div class="box" id="box4">
+            <p>DECOR</p>
+          <img src="">
+          <p>$282.00</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box" id="box5">
+              <p>DECOR</p>
+              <img src="">
+              <p>$212.00</p>
+          </div>
+          </div>
+       <div class="col-sm-4">
+         <div class="box" id="box6">
+            <p>DECOR</p>
+          <img src="">
+          <p>$204.00</p>
+          </div>
+       </div>
+      </div>
+    </div>
+    <div class="section2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-7">
+              <img src="deals.jpg" width="1000px;" height="500px;">
+          </div>
+          <div class="col-sm-5">
+            <h2 style="font-size: 100px; margin-top: 250px; text-align: center; margin-left: -60px; font-family: 'Concert One', cursive;">SALE UPTO 40%</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="decor">
+       <div class="container-fluid">
+         <div class="row">
+           <div class="col-sm-5cols">
+             <img src="decor1.jpg" height="357px" width="357px;">
+             <div class="content">
+               <h3>HOME DECOR</h3>
+               <p>$200.00</p>
+             </div>
+           </div>
+           <div class="col-sm-5cols">
+              <img src="decor2.jpg" height="357px" width="357px;" >
+              <div class="content">
+                  <h3>HOME DECOR</h3>
+                  <p>$200.00</p>
+                </div>
+            </div>
+            <div class="col-sm-5cols">
+                <img src="decor6.jpg" height="357px" width="357px;">
+                <div class="content">
+                    <h3>HOME DECOR</h3>
+                    <p>$200.00</p>
+                  </div>
+              </div>
+              <div class="col-sm-5cols">
+                  <img src="decor4.png" height="357px" width="357px;">
+                  <div class="content">
+                      <h3>HOME DECOR</h3>
+                      <p>$200.00</p>
+                    </div>
+                </div>
+               <div class="col-sm-5cols">
+                    <img src="decor5.jpg" height="357px" width="357px;">
+                    <div class="content">
+                        <h3>HOME DECOR</h3>
+                        <p>$200.00</p>
+                      </div>
+             </div>
+         </div>
+       </div>
+      </div>
+     <div class="furniture">
+       <div class="container">
+          <h2 style="text-align: center; font-family: 'Dosis', sans-serif; margin-top: 100px;"><b>|  FURNITURE BLOG  |</b></h2>
+          <h4 style="text-align: center; font-style: italic;">LATEST NEWS OF THE WEEK</h4>
+         <div class="row" style="margin-top: 50px;">
+           <div class="col-sm-6">
+            <img src="furniture.jpg" width="570px;" height="339px;">
+           </div>
+           <div class="col-sm-6">
+               <div class="inner">
+                   <h5 style="padding-top: 80px; color: goldenrod;">FURNITURE TIPS</h5>
+                   <h3>Create Gallery Walls In 3 Fun Steps</h3>
+                   <h4 style="margin-left: 40px;margin-right: 40px;margin-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor diam mauris, nec laoreet nibh...
+                   </h4>
+                   <button style="margin-top: 40px;background-color: white;color: black;border-radius: 10px;font-size: 16px;">READ MORE !</button>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-6">
+                <div class="inner">
+                    <h5 style="padding-top: 80px; color: goldenrod;">FURNITURE TIPS</h5>
+                  <h3>Create Gallery Walls In 3 Fun Steps</h3>
+                  <h4 style="margin-left: 40px;margin-right: 40px;margin-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor diam mauris, nec laoreet nibh...
+                  </h4>
+                  <button style="margin-top: 40px;background-color: white;color: black;border-radius: 10px;font-size: 16px;">READ MORE !</button>
+                </div>
+            </div>
+            <div class="col-sm-6">
+              <img src="furniture2.jpg" width="570px;" height="339px;">
+             </div>
+          </div>
+       </div>
+      </div>
+    <div class="footer">
+      <div class="container">
+          <h1>UMBRA</h1>
+          <h3>| Furniture Store |</h3>
+          <h4>The other day the grass was brown, now it’s green because I ain’t give up. Never surrender. Eliptical talk.</h4>
+          <h4> Every chance I get, I water the plants, Lion! Special cloth alert.</h4>
+         </div>
+    </div>
+    </body>
+    <script src="script.js"></script>
+    </html>

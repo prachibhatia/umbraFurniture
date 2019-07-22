@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800&display=swap'); 
+.header .menu li a{
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    margin-right: 30px;
+}
+.header .menu{
+    margin-left: 700px;
+    margin-top: -30px;
+    width: 700px;
+}
+.header .logo{
+    width:200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.header .navbar-meta{
+    float:right;
+    width: 200px;
+    margin-top: -80px;
+    margin-right: 10px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    list-style: none;
+    top:50px;
+    left: -30px;
+    right: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+    color: black;
+  }
+.sub-menu{
+    list-style: none;
+}
+.section .carousel-inner .item img{
+     width: 100%;
+     height: 800px;
+}
+.section{
+    margin-top: -20px;
+}
+.products .col-sm-4 img{
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.products{
+    background-color:aliceblue;
+    padding-bottom: 100px;
+}
+.products h1{
+    margin-top: 80px;
+     text-align: center;
+     font-family: 'Dosis', sans-serif;
+}
+.products p{
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 20px;
+}
+.products .box{
+    height: 450px;
+    width:350px;
+    background-color: white;
+    margin-top: 30px;
+}
+.products .box p{
+    margin-top: 70px;
+}
+.footer{
+    background-color:dimgray;
+    color: white;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.section2{
+    background-color: beige;
+}
+.section2 .col-sm-7 img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section2 .col-sm-7 img:hover{
+    transform: scale(1.2);
+}
+.decor{
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.col-sm-5cols{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+@media (min-width: 768px) {
+.col-sm-5cols {
+        width: 20%;
+        float: left;
+    }
+}
+ .content{
+    display: none;
+    height: 300px;
+    width: 300px;
+    color: black;
+    background-color:white;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    bottom: 20px;
+    left: 40px;
+    right: 20px;
+    opacity: 0.9;
+}
+.content h3{
+    margin-top: 50px;
+}
+.content p{
+    margin-top: 150px;
+}
+.col-sm-5cols:hover .content{
+    display: block;
+}
+.col-sm-5cols:hover{
+    transform: scale(1.1);
+}
+.furniture{
+    background-color: aliceblue;
+}
+.furniture .container{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.inner{
+    height: 339px;
+    width: 570px;
+    background-color: white;
+}
+.furniture .col-sm-6 img:hover{
+    opacity:0.5;
+}
+.products .container .col-sm-4 .box img{
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.products .container .col-sm-4 .box img:hover{
+     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.furniture .inner{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
