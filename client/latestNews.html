@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin window</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron" style="margin-bottom: 0px;height:80px;padding-top:20px;padding-bottom:20px;font-family: 'Dosis', sans-serif;">
+        <h2 style="text-align: center;">ADMIN WINDOW</h2>
+    </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                  <li class="nav-item" active>
+                    <a class="nav-link" href="http://localhost:1804/admin">Images</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:1804/discount">Discount update</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:1804/latestNews">Latest News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+              </nav>
+              <h1 style="margin-left:750px;margin-top:50px;">Latest News Of the week</h1>
+              <div style="width:700px;margin-left:650px; background-color:cornsilk;height: 480px;">
+              <form action="http://localhost:1804/latest1" method="POST" style="width:600px;margin-left:50px;padding-top:20px;">
+                <div class="form-group">
+                    <label>Change header 1</label>
+                    <input type="text" name="header1" class="form-control">
+                </div>
+                <div class="form-group">
+                        <label>Change Header Paragraph 1</label>
+                        <input type="text" name="headerPara1" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">SUBMIT</button>
+            </form>
+            <form action="http://localhost:1804/latest2" method="POST" style="width:600px;margin-left:50px;padding-top:20px;">
+                    <div class="form-group">
+                        <label>Change header 2</label>
+                        <input type="text" name="header2" class="form-control">
+                    </div>
+                    <div class="form-group">
+                            <label>Change Header Paragraph 2</label>
+                            <input type="text" name="headerPara2" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-secondary" onclick="btnsub()">SUBMIT</button>
+                </form>
+              </div>
+            </body>
+            <script src="/home/script.js"></script>
+            </html>
